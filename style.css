@@ -1,0 +1,31 @@
+
+.container {
+    display: grid;
+    width: 450px;
+    height: 450px;
+grid-template-columns: repeat(var(--gridDivs), 1fr);
+grid-template-rows: repeat(var(--gridDivs), 1fr);
+gap: 3px;
+margin: auto;
+
+}
+body{
+    text-align: center;
+    background-color: rgb(250, 237, 216);
+}
+h1{
+    color: rebeccapurple;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+h3{
+    color: rebeccapurple;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+button{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    background-color: rgb(241, 199, 241);
+    color: purple;
+ 
+}
